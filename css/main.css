@@ -1,0 +1,93 @@
+html {
+	text-align: center;		
+	font-family: 'Muli', sans-serif;
+}
+
+header {
+	padding: 20px;
+}
+
+h1 {
+	font-size: 35px;
+	color: white;
+	background-color: #D66161;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+main {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#player {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#searchinput {
+	font-size: 15px;
+	width: 270px;
+	padding: 5px;
+	text-align: center;	
+	border-radius: 5px;	
+	border: 1px solid #bbb;
+}
+
+.searchbox {
+	padding: 20px;
+}
+
+.resultbox {
+	padding-bottom: 20px;
+}
+
+.resultlist {
+	padding: 20px;	
+}
+
+.singleresult {
+	max-width: 120px;
+	border: 1px solid #aaa;
+	display: inline-block;
+  	vertical-align: top;
+	padding: 5px;
+	margin: 10px;
+	background-color: #F6F6F6;
+}
+
+.video-title {
+	font-size: 12px;
+	display: block;
+  	word-wrap: break-word;
+}
+
+.channel-link {
+	padding-top: 5px;
+	font-size: 10px;
+	display: block;
+  	word-wrap: break-word;
+}
+
+.seemore {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 120px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	background-color: #F6F6F6;
+}
+
+.seemore:hover {
+	cursor: pointer;
+}
+
+.hidden {
+	visibility: hidden;
+}
